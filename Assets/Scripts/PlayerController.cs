@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    private float speed = 3;
+    private float speed = 30;
     private Rigidbody playerRb;
     private GameObject focalPoint;
     
@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour
         focalPoint = GameObject.Find("Focal Point"); // set focal point object in focalpoint variable
     }
 
-    // Update is called once per frame
-    void Update()
+    
+    void FixedUpdate()
     {
         
         float forwardInput = Input.GetAxis("Vertical"); //set vertical axis as forward input so up down keys can be used to move player

@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class CollisonDetector : MonoBehaviour
 {
-    public static GameObject lastHit;
+    public GameObject lastHit;
+    private float time = 0;
+    private float timeDelay = 1;
     // Start is called before the first frame update
     void Start()
     {

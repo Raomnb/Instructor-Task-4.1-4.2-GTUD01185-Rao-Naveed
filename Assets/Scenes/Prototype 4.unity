@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402188, g: 0.4931649, b: 0.57223135, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -172,7 +172,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107864611}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -270,6 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be68b08c9389cf4fb2610b77240b875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastHit: {fileID: 0}
 --- !u!1 &151871158
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +320,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151871158}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -417,6 +418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be68b08c9389cf4fb2610b77240b875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastHit: {fileID: 0}
 --- !u!1 &204445276
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,7 +540,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204445276}
   serializedVersion: 2
-  m_Mass: 4
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -558,6 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be68b08c9389cf4fb2610b77240b875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastHit: {fileID: 0}
 --- !u!1001 &245963551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -684,7 +687,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 306318249}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -782,6 +785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be68b08c9389cf4fb2610b77240b875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastHit: {fileID: 0}
 --- !u!1 &616488654
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,7 +946,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900517310}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1059,6 +1063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be68b08c9389cf4fb2610b77240b875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastHit: {fileID: 0}
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1482,7 +1487,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516153800}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -1580,6 +1585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6be68b08c9389cf4fb2610b77240b875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastHit: {fileID: 0}
 --- !u!1001 &7305732181041295649
 PrefabInstance:
   m_ObjectHideFlags: 0
